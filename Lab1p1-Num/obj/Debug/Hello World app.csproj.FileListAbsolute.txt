@@ -1,0 +1,21 @@
+C:\Users\yitze\source\repos\Hello World app\Hello World app\bin\Debug\Hello World app.exe.config
+C:\Users\yitze\source\repos\Hello World app\Hello World app\bin\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\Hello World app\Hello World app\bin\Debug\Hello World app.pdb
+C:\Users\yitze\source\repos\Hello World app\Hello World app\obj\Debug\Hello World app.csprojAssemblyReference.cache
+C:\Users\yitze\source\repos\Hello World app\Hello World app\obj\Debug\Hello World app.csproj.CoreCompileInputs.cache
+C:\Users\yitze\source\repos\Hello World app\Hello World app\obj\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\Hello World app\Hello World app\obj\Debug\Hello World app.pdb
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\bin\Debug\Hello World app.exe.config
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\bin\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\bin\Debug\Hello World app.pdb
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\obj\Debug\Hello World app.csprojAssemblyReference.cache
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\obj\Debug\Hello World app.csproj.CoreCompileInputs.cache
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\obj\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\Lab1p1-NumPlcCalc\Hello World app\obj\Debug\Hello World app.pdb
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\bin\Debug\Hello World app.exe.config
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\bin\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\bin\Debug\Hello World app.pdb
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\obj\Debug\Hello World app.csprojAssemblyReference.cache
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\obj\Debug\Hello World app.csproj.CoreCompileInputs.cache
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\obj\Debug\Hello World app.exe
+C:\Users\yitze\source\repos\GC-LAB1-1\Lab1p1-NumPlcCalc\Lab1p1-Num\obj\Debug\Hello World app.pdb
