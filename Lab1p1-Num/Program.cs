@@ -20,44 +20,6 @@ namespace Lab1_1
             Console.WriteLine(answer);
 
 
-            //This is how the code would look without the use of the methods above.
-
-            /*Console.WriteLine("Enter Number 1:");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter Number 2:");
-            int number2 = Convert.ToInt32(Console.ReadLine());
-            return new Tuple<int, int>(number1, number2);*/
-
-            /*List<int> listnum1 = new List<int>();
-            while (number1 > 0)
-            {
-                listnum1.Add(number1 % 10);
-                number1 = number1 / 10;
-            }
-
-            List<int> listnum2 = new List<int>();
-            while (number2 > 0)
-            {
-                listnum2.Add(number2 % 10);
-                number2 = number2 / 10;
-            }*/
-
-
-            /* String result = "";
-             for (int i = 0; i < listnum1.Count - 1; i++)
-             {
-                 if (listnum1[i] + listnum2[i] == listnum1[i + 1] + listnum2[i + 1] && result != "False")
-                 {
-                     result = "True";
-                 }
-                 else
-                 {
-                     result = "False";
-                 }
-
-             }
-             Console.WriteLine(result);*/
 
             Console.ReadLine();
         }
@@ -67,12 +29,12 @@ namespace Lab1_1
         public static Tuple<int, int> GetUserInput()
         {
             // get first number from user--
-            Console.WriteLine("Enter Number 1:");
-            int number1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter Number 1:");
+            int number1 = Convert.ToInt32(GetUserInput2());
            
             // get second number from user--
-            Console.WriteLine("Enter Number 2:");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter Number 2:");
+            int number2 = Convert.ToInt32(GetUserInput2());
             
             //Return is to return the method result to the console--
             return new Tuple<int, int>(number1, number2);
@@ -117,6 +79,38 @@ namespace Lab1_1
                 }
             }
             return result;
+        }
+
+        //Method to have proper validation.
+        static string GetUserInput2()
+        {
+            Console.Write("Enter number: ");
+
+            string input = string.Empty;
+
+            while (string.IsNullOrWhiteSpace(input))
+            {
+                input = Console.ReadLine();
+
+                if (input.Length == 0)
+                {
+                    Console.Write("Enter number: ");
+                }
+
+                if (!IsValidUserInput(input))
+                {
+                    Console.WriteLine("Input can only contain 0-9");
+                    Console.Write("Enter number: ");
+                    input = string.Empty;
+                }
+            }
+
+            return input;
+        }
+
+        static bool IsValidUserInput(string input)
+        {
+            return int.TryParse(input, out int a);
         }
     }
 
